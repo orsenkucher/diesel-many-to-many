@@ -1,0 +1,9 @@
+[package]
+name = "many-to-many"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+diesel = { version = "2.0", features = ["postgres", "uuid", "chrono"] }
+dotenvy = "0.15"
+uuid = { version = "1.2.2", features = ["v4", "macro-diagnostics"] }

@@ -1,0 +1,4 @@
+CREATE TABLE images (
+    id UUID PRIMARY KEY,
+    url VARCHAR NOT NULL
+)

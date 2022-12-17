@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:15
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: diesel-db
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
